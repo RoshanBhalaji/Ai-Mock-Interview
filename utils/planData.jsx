@@ -14,9 +14,7 @@ export default[
             {
                 value:'X Practice Question'
             },
-            {
-                value:'X Metaschool.so Exlcusive App Access'
-            },
+            
             {
                 value:'X Email Support'
             },
@@ -25,8 +23,8 @@ export default[
     {
         id:1,
         name:'Monthly',
-        cost:7.99,
-        paymentLink:'https://buy.stripe.com/test_28o9EjbkvgfQ8VOeUV',
+        cost:500,
+        paymentLink:'https://buy.stripe.com/test_5kA025c2z7VIa5y6oo',
         offering:[
             {
                 value:'✔️ Create 3 Free Mock Interview'
@@ -37,9 +35,7 @@ export default[
             {
                 value:'✔️ Practice Question'
             },
-            {
-                value:'✔️ Metaschool.so Exlcusive App Access'
-            },
+         
             {
                 value:'✔️ Email Support'
             }

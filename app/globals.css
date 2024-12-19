@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
   @layer base {
     :root {
@@ -65,15 +67,16 @@
       --ring: 0 0% 83.1%;
     }
   }
-
   @layer base {
     * {
       @apply border-border;
+      font-family: 'Outfit', sans-serif; 
     }
     body {
       @apply bg-background text-foreground;
     }
   }
+  
 
   .footer {
     height: 60px; /* Example height for the footer */
